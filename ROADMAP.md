@@ -39,9 +39,9 @@
 - [x] Review keseluruhan test coverage
 
 ## Fase 6 — Publish
-- [ ] Publish ke npm registry sebagai `valid-id`
-- [ ] Publish source ke GitHub (open source)
-- [ ] Tulis contoh penggunaan di README dengan use case nyata (form KYC, validasi input backend)
+- [x] Publish ke npm registry sebagai `@cakfan/valid-id`
+- [x] Publish source ke GitHub (open source)
+- [x] Setup GitHub Actions untuk auto publish ke npm pada release
 
 ## Backlog / Fase 2 Produk (belum prioritas)
 - [ ] Port ke Python (PyPI)
