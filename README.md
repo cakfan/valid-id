@@ -1,4 +1,4 @@
-# valid-id
+# @cakfan/valid-id
 
 Validate and parse Indonesian identity numbers — NIK, NPWP, and NIB.
 
@@ -10,15 +10,15 @@ Zero dependencies. Runs in Node.js, Bun, Deno, and the browser.
 
 ```bash
 # npm
-npm install valid-id
+npm install @cakfan/valid-id
 
 # bun
-bun add valid-id
+bun add @cakfan/valid-id
 
 # yarn / pnpm
-yarn add valid-id
+yarn add @cakfan/valid-id
 # or
-pnpm add valid-id
+pnpm add @cakfan/valid-id
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ pnpm add valid-id
 ### Library
 
 ```typescript
-import { validateNik, validateNpwp, validateNib } from "valid-id";
+import { validateNik, validateNpwp, validateNib } from "@cakfan/valid-id";
 
 // NIK — validates format + region codes + birth date, extracts parsed data
 const nik = validateNik("3171061501900001");
@@ -52,9 +52,9 @@ console.log(nib.valid); // true
 
 ```bash
 # via npx / bunx (after install)
-npx valid-id nik 3171061501900001
-npx valid-id npwp 01.300.066.6-091.000
-npx valid-id nib 1234567890123
+npx @cakfan/valid-id nik 3171061501900001
+npx @cakfan/valid-id npwp 01.300.066.6-091.000
+npx @cakfan/valid-id nib 1234567890123
 ```
 
 Output:
