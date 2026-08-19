@@ -1,0 +1,42 @@
+{
+  "name": "valid-id",
+  "version": "0.1.0",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "description": "Validate and parse Indonesian identity numbers (NIK, NPWP, NIB) — format validation only, no official verification.",
+  "files": [
+    "dist",
+    "LICENSE"
+  ],
+  "keywords": [
+    "nik",
+    "npwp",
+    "nib",
+    "indonesia",
+    "identity",
+    "validation",
+    "kyc",
+    "dukcapil",
+    "tax"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "bun run build.ts",
+    "test": "bun test",
+    "prepublishOnly": "bun run build"
+  },
+  "types": "./dist/index.d.ts"
+}
