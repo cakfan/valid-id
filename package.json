@@ -16,6 +16,10 @@
       "default": "./dist/index.js"
     }
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cakfan/valid-id.git"
+  },
   "description": "Validate and parse Indonesian identity numbers (NIK, NPWP, NIB) — format validation only, no official verification.",
   "bin": {
     "valid-id": "./dist/cli-entry.js"
