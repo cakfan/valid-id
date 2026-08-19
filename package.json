@@ -1,5 +1,5 @@
 {
-  "name": "valid-id",
+  "name": "@cakfan/valid-id",
   "version": "0.1.0",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
@@ -18,7 +18,7 @@
   },
   "description": "Validate and parse Indonesian identity numbers (NIK, NPWP, NIB) — format validation only, no official verification.",
   "bin": {
-    "valid-id": "./dist/cli.js"
+    "valid-id": "./dist/cli-entry.js"
   },
   "files": [
     "dist",
