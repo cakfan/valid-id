@@ -33,10 +33,10 @@
 - [x] Setup binary agar bisa dijalankan via `bunx valid-id` / `npx valid-id`
 
 ## Fase 5 — Dokumentasi & Polish
-- [ ] Tulis README lengkap: instalasi, contoh penggunaan (library + CLI), disclaimer batasan validasi
-- [ ] Dokumentasikan API reference untuk setiap fungsi (parameter, return type, contoh)
-- [ ] Cantumkan disclaimer jelas: validasi format saja, bukan verifikasi ke sumber resmi
-- [ ] Review keseluruhan test coverage
+- [x] Tulis README lengkap: instalasi, contoh penggunaan (library + CLI), disclaimer batasan validasi
+- [x] Dokumentasikan API reference untuk setiap fungsi (parameter, return type, contoh)
+- [x] Cantumkan disclaimer jelas: validasi format saja, bukan verifikasi ke sumber resmi
+- [x] Review keseluruhan test coverage
 
 ## Fase 6 — Publish
 - [ ] Publish ke npm registry sebagai `valid-id`
