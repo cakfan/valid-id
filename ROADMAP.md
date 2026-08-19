@@ -15,11 +15,11 @@
 - [x] Unit test untuk kasus invalid (panjang salah, kode wilayah tidak ada, tanggal tidak valid)
 
 ## Fase 2 — Validasi NPWP
-- [ ] Riset format lama (15 digit) dan format baru (16 digit berbasis NIK) secara detail
-- [ ] Implementasi deteksi otomatis format (lama vs baru)
-- [ ] Implementasi validasi checksum untuk format lama
-- [ ] Implementasi validasi format untuk format baru (berbasis validasi NIK dari Fase 1)
-- [ ] Unit test untuk kedua format, termasuk kasus checksum invalid
+- [x] Riset format lama (15 digit) dan format baru (16 digit berbasis NIK) secara detail
+- [x] Implementasi deteksi otomatis format (lama vs baru)
+- [x] Implementasi validasi checksum untuk format lama
+- [x] Implementasi validasi format untuk format baru (berbasis validasi NIK dari Fase 1)
+- [x] Unit test untuk kedua format, termasuk kasus checksum invalid
 
 ## Fase 3 — Validasi NIB
 - [ ] Riset format dan struktur NIB (panjang, pola digit) — dokumentasikan sumber referensi
