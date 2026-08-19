@@ -22,10 +22,10 @@
 - [x] Unit test untuk kedua format, termasuk kasus checksum invalid
 
 ## Fase 3 — Validasi NIB
-- [ ] Riset format dan struktur NIB (panjang, pola digit) — dokumentasikan sumber referensi
-- [ ] Implementasi `validateNib()` — validasi format dasar
-- [ ] Dokumentasikan limitasi (tidak ada verifikasi checksum, hanya validasi pola)
-- [ ] Unit test untuk kasus format valid/invalid
+- [x] Riset format dan struktur NIB (panjang, pola digit) — dokumentasikan sumber referensi
+- [x] Implementasi `validateNib()` — validasi format dasar
+- [x] Dokumentasikan limitasi (tidak ada verifikasi checksum, hanya validasi pola)
+- [x] Unit test untuk kasus format valid/invalid
 
 ## Fase 4 — CLI
 - [ ] Implementasi CLI command: `valid-id nik <nomor>`, `valid-id npwp <nomor>`, `valid-id nib <nomor>`
