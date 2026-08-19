@@ -28,9 +28,9 @@
 - [x] Unit test untuk kasus format valid/invalid
 
 ## Fase 4 — CLI
-- [ ] Implementasi CLI command: `valid-id nik <nomor>`, `valid-id npwp <nomor>`, `valid-id nib <nomor>`
-- [ ] Output hasil validasi dalam format yang mudah dibaca di terminal (termasuk data hasil parsing jika ada)
-- [ ] Setup binary agar bisa dijalankan via `bunx valid-id` / `npx valid-id`
+- [x] Implementasi CLI command: `valid-id nik <nomor>`, `valid-id npwp <nomor>`, `valid-id nib <nomor>`
+- [x] Output hasil validasi dalam format yang mudah dibaca di terminal (termasuk data hasil parsing jika ada)
+- [x] Setup binary agar bisa dijalankan via `bunx valid-id` / `npx valid-id`
 
 ## Fase 5 — Dokumentasi & Polish
 - [ ] Tulis README lengkap: instalasi, contoh penggunaan (library + CLI), disclaimer batasan validasi
